@@ -1,0 +1,16 @@
+.alert {
+	position: relative;
+	padding: $alert-padding-y $alert-padding-x;
+	margin-bottom: $alert-margin-bottom;
+	border: $alert-border-width solid transparent;
+	border-radius: $alert-border-radius;
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+@each $color, $value in $jiyoul-colors {
+	.alert-#{$color} {
+		@include alert-variant($value);
+	}
+}

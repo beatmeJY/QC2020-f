@@ -1,0 +1,8 @@
+@mixin alert-variant($color) {
+  @include jiyoul-gradient-bg($color);
+	border-color: lighten($color, 15%);
+}
+
+@mixin jiyoul-gradient-bg($color) {
+  background: $color linear-gradient(-120deg, mix(white, $color, 70%), mix(white, $color, 30%)) repeat-x;
+}

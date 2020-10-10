@@ -1,0 +1,20 @@
+// default colors
+$banana:      rgb(255, 254, 89)   !default;
+$mulberry:    rgb(94, 67, 81)     !default;
+$strawBerry:  rgb(180, 49, 4)     !default;
+$greenGrape:  rgb(137, 250, 137)  !default;
+$eggYolk:     rgb(250, 183, 0)   !default;
+$candybar:    rgb(151, 222, 252)   !default;
+$pitch:       rgb(243, 177, 175)   !default;
+$carrot:      rgb(255, 127, 0)   !default;
+
+$jiyoul-colors: (
+  "banana":     $banana,
+  "mulberry":   $mulberry,
+  "strawBerry": $strawBerry,
+  "greenGrape": $greenGrape,
+  "eggYolk":    $eggYolk,
+  "candybar":   $candybar,
+  "pitch":      $pitch,
+  "carrot":     $carrot,
+);
